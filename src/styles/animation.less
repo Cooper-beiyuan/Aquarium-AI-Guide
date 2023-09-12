@@ -1,0 +1,40 @@
+/* stylelint-disable-next-line less/function-no-unknown */
+.breathing {
+  /* IE10、Firefox and Opera，IE9以及更早的版本不支持 */
+
+  /* 动画名称 */
+
+  /* 动画时长3秒 */
+
+  /* 动画速度曲线：以低速开始和结束 */
+
+  /* 播放次数：无限 */
+
+  /* Safari and Chrome */
+  animation-name: breathing;
+
+  /* 动画名称 */
+  animation-duration: 2s;
+
+  /* 动画时长3秒 */
+  animation-timing-function: ease-in-out;
+
+  /* 动画速度曲线：以低速开始和结束 */
+  animation-iteration-count: infinite;
+
+  /* 播放次数：无限 */
+}
+
+@keyframes breathing {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.08);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

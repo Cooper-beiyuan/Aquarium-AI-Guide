@@ -1,6 +1,1 @@
-/dist
-*.scss
-*.css
-/node_modules
-/build
-vite.config.ts
+node_modules
